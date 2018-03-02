@@ -22,6 +22,8 @@ namespace test123
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            //VERY SPECIAL COMMENT!
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
